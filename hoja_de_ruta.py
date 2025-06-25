@@ -16,7 +16,7 @@ class PANEL_PT_HojaRuta(bpy.types.Panel):
         layout = self.layout
         scene = context.scene
 
-        layout.label(text="Escribe aquí tu Objetivo Proncipal")
+        layout.label(text="Escribe aquí tu Objetivo Principal")
         row = layout.row(align=True)
         row.prop(scene, "objetivo_principal")
         row.operator("hojaruta.reset_principal", text="", icon='LOOP_BACK')
