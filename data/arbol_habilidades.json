@@ -1,0 +1,158 @@
+{
+  "Fundamentos de Creación 3D": {
+    "Iluminación": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Ilumina una escena con una luz puntual y sombras duras.",
+        "Ilumina una escena exterior utilizando HDRI para luz global.",
+        "Configura niebla volumétrica y efectos de luz en una escena.",
+        "Configura iluminación de tres puntos (key, fill y backlight).",
+        "Crea una luz en movimiento, como una antorcha en un túnel.",
+        "Usa objetos emisores de luz para iluminar una escena.",
+        "Crea iluminación y sombras estilo cómic o animación 2D.",
+        "Ilumina una escena con un estilo cinematográfico.",
+        "Controla la caída de la luz en una escena interior."
+      ]
+    },
+    "Modelado": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Modela un cubo básico con extrusiones para crear una figura geométrica compleja.",
+        "Aplica retopología a un modelo orgánico esculpido.",
+        "Crea una criatura detallada usando herramientas de esculpido.",
+        "Usa Mirror para simetría y Array para duplicaciones en secuencia.",
+        "Crea un entorno completo con un estilo low poly.",
+        "Modela una criatura simple usando formas suaves y esculpido.",
+        "Modela una estructura mecánica como un vehículo o maquinaria.",
+        "Usa Geometry Nodes para crear una escalera ajustable.",
+        "Optimiza un modelo de alta resolución mediante retopología manual."
+      ]
+    },
+    "Texturizado": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Desempaqueta un modelo y aplica texturas UV sin costuras.",
+        "Crea un material procedural (como ladrillos o madera) usando nodos.",
+        "Diseña un shader avanzado con Subsurface Scattering.",
+        "Desempaqueta un objeto complejo y aplica texturas.",
+        "Pinta directamente sobre un modelo 3D usando Texture Paint.",
+        "Hornea texturas de alta resolución en un mapa para un modelo de baja resolución.",
+        "Crea materiales procedurales detallados usando nodos.",
+        "Crea un material PBR usando mapas de difuso, normal y rugosidad.",
+        "Aplica y mezcla dos texturas diferentes en un modelo usando nodos de mezcla."
+      ]
+    }
+  },
+  "Dinámica y Expresión": {
+    "Animación": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Anima un objeto simple moviéndose entre dos puntos.",
+        "Crea un rig para un personaje básico con huesos y controladores.",
+        "Anima expresiones faciales utilizando shapekeys.",
+        "Crea una animación en bucle usando el Non-Linear Animation Editor.",
+        "Usa constraints para animar movimientos controlados, como puertas giratorias.",
+        "Combina múltiples acciones en una animación con NLA Editor.",
+        "Crea una animación con movimientos superpuestos para mayor realismo.",
+        "Anima un personaje realizando una serie de acciones (caminar, correr, saltar).",
+        "Integra partículas o fluidos en una animación."
+      ]
+    },
+    "Simulación": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Colisiones: Simula objetos que caen y chocan.",
+        "Fluidos: Crea una simulación de agua interactuando con otros objetos.",
+        "Partículas: Crea un sistema de partículas para simular nieve.",
+        "Tejidos (Cloth Simulation): Simula una tela cayendo sobre un objeto.",
+        "Cabello: Crea y anima cabello en un personaje.",
+        "Explosiones: Crea una explosión con partículas y humo.",
+        "Destrucción: Simula la destrucción de un objeto usando Cell Fracture.",
+        "Fuego: Simula una llama interactuando con objetos.",
+        "Humo Avanzado: Crea un sistema de simulación de humo."
+      ]
+    },
+    "Diseño Procedural": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Geometría Procedural: Usa Geometry Nodes para generar una estructura repetitiva.",
+        "Desplazamiento Procedural: Crea una superficie montañosa con nodos procedurales.",
+        "Generación de Árboles: Crea un árbol usando algoritmos procedurales.",
+        "Modelado Paramétrico: Genera un objeto paramétrico que cambia con valores de entrada.",
+        "Animación Procedural: Anima objetos siguiendo patrones matemáticos.",
+        "Terrenos Procedurales: Crea un terreno con ruido procedural.",
+        "Texturas Procedurales: Aplica texturas procedurales generadas dinámicamente.",
+        "Estructuras Fractales: Genera una estructura fractal con nodos.",
+        "Partículas Procedurales: Controla la emisión de partículas con nodos procedurales."
+      ]
+    }
+  },
+  "Producción y Refinamiento": {
+    "Postproducción": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Composición Básica: Ajusta niveles de color y desenfoque en una escena.",
+        "Render por Capas: Divide una escena en capas separadas para recomponerla.",
+        "Corrección de Color: Ajusta tonalidades y saturación usando nodos de composición.",
+        "Desenfoque de Movimiento: Añade desenfoque de movimiento para simular velocidad.",
+        "Efectos de Lente (Lens Flare): Aplica efectos de lente en una fuente de luz.",
+        "Z-Depth: Usa Z-Depth para ajustar la profundidad de campo.",
+        "Efectos con Nodos: Aplica efectos visuales como glow y viñetas.",
+        "Retoque Cinemático: Aplica corrección y gradación de color para dar un estilo cinematográfico.",
+        "Render por Capas y Composición: Renderiza una escena en capas y compónelas en postproducción."
+      ]
+    },
+    "Efectos Especiales (VFX)": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Simulación de Partículas: Genera partículas para efectos como nieve, polvo o explosiones.",
+        "Simulación de Humo y Fuego: Configura simulaciones avanzadas para crear humo o llamas realistas en una escena.",
+        "Composición de Fondos en Green Screen: Integra fondos grabados en pantalla verde con escenas 3D mediante nodos.",
+        "Destrucción Controlada: Usa simulaciones físicas para fragmentar y destruir objetos de manera realista.",
+        "Simulación de Fluidos: Genera efectos de agua o líquidos que interactúan con objetos.",
+        "Matchmoving: Ajusta escenas 3D para sincronizarlas con videos grabados, integrando elementos 3D en tomas reales.",
+        "Efectos Procedurales: Diseña efectos visuales generados dinámicamente, como energía o magia, usando nodos.",
+        "Rastreo de Cámara: Realiza un tracking avanzado para insertar objetos 3D en grabaciones reales con movimientos precisos.",
+        "Rotoscopia en 3D: Usa herramientas de rotoscopia para aislar elementos específicos de videos y combinarlos con escenas 3D."
+      ]
+    },
+    "Código (Python)": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Escribir un script que automatice la creación y disposición de objetos primitivos (cubos, esferas) en la escena.",
+        "Crear un script que disponga varios objetos en una escena y les aplique transformaciones aleatorias.",
+        "Crear un addon que permita a los usuarios generar una serie de objetos con un solo clic y personalizarlos mediante una interfaz de usuario básica.",
+        "Escribir un script que anime un objeto moviéndose a lo largo de una curva en un tiempo definido.",
+        "Crear un script que construya automáticamente un material con nodos y lo aplique a un objeto en la escena.",
+        "Crear una herramienta que permita duplicar y organizar objetos siguiendo patrones matemáticos o algoritmos.",
+        "Escribir un script que modifique la topología de un objeto existente o genere una nueva malla desde cero utilizando listas de vértices y aristas.",
+        "Crear un script que controle las propiedades de un sistema de partículas o simulación de fluidos en tiempo real.",
+        "Crear una interfaz simple con botones y controles deslizantes que permita manipular parámetros de un objeto o animación."
+      ]
+    },
+    "Pipeline y Producción": {
+      "propuesta_ludica": "",
+      "manual": "",
+      "retos": [
+        "Organización de Proyectos: Establece un flujo de trabajo estructurado organizando archivos, escenas y recursos.",
+        "Colaboración Multidisciplinaria: Aprende a trabajar con otros artistas y departamentos (modeladores, texturizadores, animadores).",
+        "Gestión de Versiones: Usa herramientas como Git o Perforce para mantener versiones claras de los proyectos.",
+        "Automatización de Tareas: Utiliza scripts y addons para automatizar procesos repetitivos en la producción.",
+        "Exportación para Motores de Juegos: Configura escenas para exportarlas eficientemente a motores como Unity o Unreal Engine.",
+        "Render Distribuido: Configura renderizados en red para optimizar tiempos de procesamiento en proyectos complejos.",
+        "Gestión de Recursos: Aprende a optimizar texturas, polígonos y luces para reducir el peso del archivo final.",
+        "Integración de Software Externo: Conecta Blender con otras herramientas como Substance Painter, Houdini o After Effects.",
+        "Presentación y Entrega Final: Prepara proyectos finales para su entrega profesional, asegurando calidad en diferentes plataformas o formatos."
+      ]
+    }
+  }
+}

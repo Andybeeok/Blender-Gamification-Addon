@@ -1,0 +1,506 @@
+{
+  "Novato": {
+    "iluminacion": {
+      "keywords": ["luz", "iluminar", "luces", "iluminación", "lighting", "HDRI", "sombra", "claridad", "brillo"],
+      "habitos": [
+        "Activa siempre una fuente de luz para visualizar tu escena con más claridad",
+        "Prueba diferentes tipos de luces (Puntual, Solar, Área) para familiarizarte con sus efectos",
+        "Usa la vista Renderizada para analizar la iluminación mientras trabajas",
+        "Explora cómo afectan las sombras duras y suaves a tus objetos",
+        "Estudia cómo la posición de la luz cambia la atmósfera de una escena"
+      ],
+      "tareas": [
+        "Crea una escena con una sola luz puntual iluminando un cubo",
+        "Ilumina una habitación interior con luz solar simulada",
+        "Aplica una imagen HDRI en el mundo para iluminar una escena exterior",
+        "Configura una escena de retrato simple usando una luz principal y una de relleno",
+        "Realiza una comparación entre diferentes intensidades de luz en la misma escena"
+      ]
+    },
+    "modelado": {
+      "keywords": ["modelado", "forma", "objetos", "malla", "extruir", "escalar", "editar", "crear", "topología", "modelo 3D"],
+      "habitos": [
+        "Practica diariamente con primitivas básicas como cubos, esferas y cilindros",
+        "Familiarízate con el modo edición y sus atajos más usados",
+        "Explora herramientas como extrusión, escalado y corte de bucles (loop cut)",
+        "Observa modelos reales para inspirar tus prácticas de modelado",
+        "Trabaja en la limpieza de topología usando quads en lugar de triángulos"
+      ],
+      "tareas": [
+        "Modela una taza a partir de un cubo",
+        "Crea una casa simple usando extrusión y modificador de espejo",
+        "Modela una silla sencilla aplicando subdivisiones",
+        "Reproduce una lámpara básica usando primitivas",
+        "Copia la forma de una botella observando una referencia fotográfica"
+      ]
+    },
+    "texturizado": {
+      "keywords": ["textura", "material", "colores", "UV", "pintar", "superficie", "shading", "sombreador", "node editor", "imagen"],
+      "habitos": [
+        "Explora el uso básico del Shader Editor para aplicar materiales",
+        "Asigna materiales con colores distintos a diferentes partes de un objeto",
+        "Estudia cómo las texturas afectan el aspecto visual de una malla",
+        "Practica el desempaquetado UV con objetos simples",
+        "Juega con nodos básicos como Color y Roughness para entender su función"
+      ],
+      "tareas": [
+        "Aplica un material de color sólido a un cubo",
+        "Desempaqueta UV de un cubo y aplica una textura de imagen",
+        "Pinta manualmente una esfera usando modo Texture Paint",
+        "Crea un material con textura de madera usando nodos básicos",
+        "Cambia la rugosidad de un objeto para observar cómo afecta el reflejo"
+      ]
+    },
+    "animacion": {
+      "keywords": ["animar", "keyframe", "movimiento", "timeline", "acción", "fps", "locrot", "interpolación", "transformar", "animación"],
+      "habitos": [
+        "Visualiza la línea de tiempo para entender el flujo de una animación",
+        "Practica insertar keyframes usando la tecla I",
+        "Observa cómo la interpolación afecta el movimiento entre poses",
+        "Revisa tu animación desde diferentes ángulos para mejorar su fluidez",
+        "Desarrolla la costumbre de nombrar tus acciones en el editor de acciones"
+      ],
+      "tareas": [
+        "Anima un cubo que se traslade de un punto a otro en 60 cuadros",
+        "Crea una animación básica de rebote usando escalado",
+        "Haz rotar una esfera durante 120 cuadros",
+        "Anima una cámara que se acerque lentamente a un objeto",
+        "Cambia la interpolación de una animación para lograr un efecto más suave"
+      ]
+    }
+  },
+
+  "Aprendiz": {
+    "iluminacion": {
+      "keywords": ["iluminar", "iluminación", "sombra", "luz ambiental", "HDRI", "emisión", "dirección de la luz", "iluminación realista", "setup de luces"],
+      "habitos": [
+        "Estudia cómo simular luz natural en interiores y exteriores",
+        "Compara el efecto de luces cálidas y frías en una misma escena",
+        "Crea setups de tres puntos de luz para mejorar presentaciones",
+        "Experimenta con luces de emisión para crear neones o pantallas",
+        "Evalúa cómo el HDRI cambia la percepción de profundidad"
+      ],
+      "tareas": [
+        "Ilumina una escena tipo estudio con tres fuentes de luz",
+        "Usa un HDRI y ajusta su rotación para lograr un atardecer",
+        "Crea un letrero con material de emisión que simule un neón",
+        "Simula la luz de una vela con luz puntual animada",
+        "Genera una escena nocturna equilibrando sombras y luces artificiales"
+      ]
+    },
+    "modelado": {
+      "keywords": ["modelado", "malla", "edición", "retopología", "modificadores", "extrusión", "bevel", "topología", "malla limpia", "detalle"],
+      "habitos": [
+        "Utiliza el modificador Mirror para ahorrar tiempo en simetrías",
+        "Practica la retopología manual sobre objetos con forma libre",
+        "Ajusta subdivisiones para equilibrar detalle y rendimiento",
+        "Optimiza tus modelos eliminando geometría innecesaria",
+        "Aplica bevels para suavizar bordes sin añadir demasiada geometría"
+      ],
+      "tareas": [
+        "Modela un personaje base con simetría usando Mirror y Subdivision",
+        "Crea una retopología básica sobre una escultura simple",
+        "Modela un control de videojuego usando primitivas y modificadores",
+        "Haz una versión low poly de una casa real",
+        "Modela un objeto mecánico (como una llave inglesa) con precisión"
+      ]
+    },
+    "texturizado": {
+      "keywords": ["textura", "materiales", "UV mapping", "node editor", "bump", "roughness", "mapas", "normal", "shading", "color"],
+      "habitos": [
+        "Revisa siempre el desempaquetado UV antes de aplicar una textura",
+        "Explora mapas como Roughness, Bump y Normal para enriquecer materiales",
+        "Organiza tus nodos para mantener una red clara y comprensible",
+        "Usa texturas PBR para materiales más realistas",
+        "Prueba shaders como Principled BSDF para controlar múltiples propiedades"
+      ],
+      "tareas": [
+        "Aplica un material metálico realista usando nodos y mapas PBR",
+        "Desempaqueta una caja y pinta su textura directamente en Blender",
+        "Crea un material con rugosidad variable controlada por una imagen",
+        "Conecta un mapa Normal para simular detalles en una superficie plana",
+        "Diseña un material de tela usando ruido procedural en el node editor"
+      ]
+    },
+    "animacion": {
+      "keywords": ["animar", "keyframes", "acción", "poses", "rig", "timeline", "curvas de animación", "dope sheet", "editor de gráficos", "fluidez"],
+      "habitos": [
+        "Utiliza el Dope Sheet para editar acciones de forma más precisa",
+        "Ajusta curvas en el Editor de Gráficos para suavizar movimientos",
+        "Practica el uso de rigs básicos con controles simples",
+        "Analiza referencias reales para mejorar la credibilidad de tus animaciones",
+        "Anima usando ciclos y repeticiones para ahorrar trabajo"
+      ],
+      "tareas": [
+        "Crea una animación de una pelota que rebota con squash and stretch",
+        "Anima una puerta que se abre con curvas suaves en el editor gráfico",
+        "Crea un ciclo de caminata básico con un rig humanoide",
+        "Haz una cámara que sigue a un objeto animado",
+        "Anima una cadena de objetos con retardo secuencial usando keyframes"
+      ]
+    },
+    "simulacion": {
+      "keywords": ["simulación", "dinámica", "física", "gravedad", "colisión", "partículas", "fluido", "tela", "rigidez", "cuerpo rígido"],
+      "habitos": [
+        "Explora cómo funcionan las colisiones entre cuerpos rígidos",
+        "Configura correctamente la escala y masa de los objetos simulados",
+        "Ajusta la resolución de las simulaciones para balancear calidad y velocidad",
+        "Prueba diferentes tipos de constraints en cuerpos físicos",
+        "Evita objetos interpenetrados antes de iniciar una simulación"
+      ],
+      "tareas": [
+        "Simula una torre de cubos cayendo y colapsando",
+        "Crea una bandera ondeando con simulación de tela",
+        "Configura una cascada simple con simulación de fluidos",
+        "Anima partículas que siguen un objeto como estela",
+        "Simula una pelota rebotando con materiales físicos realistas"
+      ]
+    },
+    "pipelineyproduccion": {
+      "keywords": ["proyecto", "organización", "archivo", "flujo de trabajo", "versionado", "exportar", "guardar", "referencias", "producción", "workflow"],
+      "habitos": [
+        "Nombrar correctamente tus archivos y objetos para evitar confusión",
+        "Guarda versiones incrementales durante el progreso del proyecto",
+        "Organiza la escena por colecciones desde el inicio",
+        "Exporta pruebas frecuentes para validar el avance visual",
+        "Incorpora referencias visuales y de escala al inicio del proyecto"
+      ],
+      "tareas": [
+        "Organiza una escena compleja con colecciones nombradas correctamente",
+        "Guarda 5 versiones progresivas de un mismo archivo y compara avances",
+        "Exporta una animación como video para revisar tiempo y fluidez",
+        "Crea una plantilla base de proyecto para futuras escenas",
+        "Asocia una imagen de referencia con tu escena y ajústala al modelo"
+      ]
+    }
+  },
+
+  "Experto": {
+    "iluminacion": {
+      "keywords": ["setup de luces", "luz volumétrica", "iluminación cinematográfica", "iluminación global", "rebote de luz", "color de luz", "composición lumínica", "caustics", "esquema de tres luces", "control lumínico"],
+      "habitos": [
+        "Estudia esquemas de iluminación cinematográfica como Rembrandt o luz lateral",
+        "Explora efectos de luz volumétrica para crear atmósferas densas",
+        "Ajusta la temperatura de color para expresar emociones en la escena",
+        "Analiza referencias de películas para replicar esquemas de iluminación",
+        "Experimenta con caústicas y rebotes en ciclos para lograr realismo"
+      ],
+      "tareas": [
+        "Recrea una escena con iluminación de cine noir usando luces direccionales",
+        "Aplica luz volumétrica en una escena de niebla con sombras proyectadas",
+        "Diseña una escena nocturna con caústicas simuladas sobre agua",
+        "Recrea una iluminación de estudio profesional para un producto 3D",
+        "Compón una escena exterior al atardecer ajustando balance de color e intensidad"
+      ]
+    },
+    "modelado": {
+      "keywords": ["modelado avanzado", "topología limpia", "sculpting", "booleanos", "modificadores complejos", "retopología", "modelado técnico", "precisión", "detalles finos", "decimación"],
+      "habitos": [
+        "Optimiza tus modelos de alta densidad con modificadores de decimación",
+        "Aplica booleanos controlados para modelado hard surface",
+        "Combina escultura y retopología para crear personajes listos para producción",
+        "Mantén la topología limpia y compatible con animación",
+        "Usa referencias técnicas reales para modelado mecánico"
+      ],
+      "tareas": [
+        "Modela un personaje de alta resolución y realiza su retopología manual",
+        "Crea una pieza mecánica compleja utilizando booleanos y subdivisiones",
+        "Esculpe una criatura detallada y prepárala para baking de mapas",
+        "Modela un objeto con precisión real a partir de planos técnicos",
+        "Prepara un modelo para impresión 3D asegurando volumen cerrado y sin errores"
+      ]
+    },
+    "texturizado": {
+      "keywords": ["PBR", "bakeo", "texturizado avanzado", "multicanal", "roughness map", "normal map", "procedural", "detalles finos", "displacement", "material complejo"],
+      "habitos": [
+        "Bakea mapas como Ambient Occlusion, Normales y Curvatura para acelerar renders",
+        "Combina texturas procedurales y de imagen para obtener resultados híbridos",
+        "Crea materiales personalizados con múltiples entradas de máscaras",
+        "Usa displacement real para lograr superficies tridimensionales en detalle",
+        "Organiza y documenta materiales complejos para reutilización en producción"
+      ],
+      "tareas": [
+        "Bakea un set de mapas PBR para un personaje de alta resolución",
+        "Diseña un material de roca erosionada con mapas de altura y ruido procedural",
+        "Crea un shader de piel que use múltiples capas y SSS (Subsurface Scattering)",
+        "Construye un material modular reutilizable para entornos naturales",
+        "Aplica materiales con múltiples texturas y máscaras para controlar desgaste"
+      ]
+    },
+    "animacion": {
+      "keywords": ["animación avanzada", "curvas f-curve", "rig avanzado", "acciones", "drivers", "constraints", "animación facial", "nla editor", "lip sync", "cinemática inversa"],
+      "habitos": [
+        "Ajusta tus curvas F-Curve para dar personalidad y estilo al movimiento",
+        "Utiliza el NLA Editor para combinar y reutilizar acciones complejas",
+        "Explora controladores y constraints para animaciones técnicas",
+        "Crea rigs personalizados con controles adaptados a la producción",
+        "Sincroniza audio y movimientos para mejorar credibilidad narrativa"
+      ],
+      "tareas": [
+        "Configura una animación facial con shape keys y controladores",
+        "Usa el NLA Editor para mezclar dos ciclos de caminata distintos",
+        "Crea una animación mecánica con constraints y drivers sincronizados",
+        "Prepara una animación de acción con rig humanoide e interacción con objetos",
+        "Realiza una animación sincronizada con voz (lip sync) usando audio real"
+      ]
+    },
+    "simulacion": {
+      "keywords": ["simulaciones complejas", "flujo de partículas", "cloth avanzado", "smoke", "fluid", "explosiones", "colisiones avanzadas", "bake", "velocidad", "efectos físicos"],
+      "habitos": [
+        "Configura simulaciones por separado para mayor control sobre cada capa",
+        "Optimiza resolución y bakeo en caché para simular con eficiencia",
+        "Utiliza fuerzas como viento o campos magnéticos para alterar simulaciones",
+        "Prueba diferentes métodos de colisión para resultados más naturales",
+        "Estudia el comportamiento físico real antes de simularlo digitalmente"
+      ],
+      "tareas": [
+        "Simula una explosión con humo y fuego combinando partículas y gas",
+        "Diseña un sistema de tela que reaccione a colisiones múltiples",
+        "Crea una simulación de fluidos con obstáculos animados",
+        "Usa partículas para generar un sistema de lluvia interactiva",
+        "Configura una escena con múltiples sistemas simulados (cloth, smoke, rigid body)"
+      ]
+    },
+    "disenioprocedural": {
+      "keywords": ["geometry nodes", "procedural", "generación automática", "paramétrico", "nodos", "instancing", "controladores", "generativo", "dinámico", "atributos"],
+      "habitos": [
+        "Desarrolla sistemas reutilizables con Geometry Nodes",
+        "Controla parámetros mediante atributos personalizados",
+        "Crea estructuras iterativas con instancing para optimizar geometría",
+        "Organiza tus árboles nodales con grupos y etiquetas",
+        "Explora patrones generativos para decoración o escenarios"
+      ],
+      "tareas": [
+        "Diseña una ciudad procedural con instancing de edificios",
+        "Genera patrones orgánicos con noise y transformación por nodos",
+        "Crea un puente paramétrico con controladores de longitud y curvatura",
+        "Construye un generador de vegetación ajustable por sliders",
+        "Prepara una herramienta procedural exportable como asset"
+      ]
+    },
+    "postproduccion": {
+      "keywords": ["compositor", "composición", "pases de render", "corrección de color", "depth", "mist", "nodes", "composición avanzada", "efectos ópticos", "post"],
+      "habitos": [
+        "Usa el compositor para agregar profundidad y efectos sin rerenderizar",
+        "Trabaja con múltiples capas y pases para mejorar el control visual",
+        "Aplica máscaras y mattes para editar áreas específicas",
+        "Realiza corrección de color usando scopes y curvas RGB",
+        "Optimiza la postproducción para reducir tiempos de render final"
+      ],
+      "tareas": [
+        "Crea un efecto de profundidad de campo usando Z Depth en el compositor",
+        "Aplica un glare y bloom sobre luces intensas en postproducción",
+        "Corrige color de una animación con nodos de curvas y balance",
+        "Compón una escena combinando pases separados (diffuse, specular, shadow)",
+        "Diseña una secuencia de efectos ópticos como aberración cromática y desenfoque"
+      ]
+    },
+    "efectosespecialesvfx": {
+      "keywords": ["VFX", "tracking", "composición", "efectos especiales", "greenscreen", "moción", "matchmove", "footage", "remplazo de fondo", "integración"],
+      "habitos": [
+        "Estudia el movimiento de cámara para realizar tracking realista",
+        "Alinea tu escena 3D con footage real para integraciones precisas",
+        "Utiliza marcadores visibles para tracking estable",
+        "Optimiza máscaras en chroma key para evitar halos y ruidos",
+        "Trabaja con escala y perspectiva real para coherencia visual"
+      ],
+      "tareas": [
+        "Realiza un camera tracking con footage real y agrega un objeto 3D",
+        "Reemplaza un fondo verde con una escena renderizada",
+        "Integra un personaje animado en un entorno filmado",
+        "Aplica motion blur realista a un objeto 3D en movimiento sobre video",
+        "Combina múltiples fuentes visuales para crear un plano complejo"
+      ]
+    },
+    "pipelineyproduccion": {
+      "keywords": ["producción", "pipeline", "organización", "plantillas", "flujo profesional", "optimización", "colaboración", "documentación", "nomenclatura", "automatización"],
+      "habitos": [
+        "Implementa convenciones de nomenclatura claras y estándar",
+        "Usa plantillas de escena para asegurar consistencia en producción",
+        "Documenta decisiones técnicas para facilitar el trabajo en equipo",
+        "Optimiza tiempos de render con pruebas de resolución y muestras",
+        "Integra herramientas externas como Trello o Git para control de proyectos"
+      ],
+      "tareas": [
+        "Crea una plantilla con configuración de render, colección base y cámara",
+        "Documenta el pipeline completo de un corto animado en etapas",
+        "Exporta tu escena en formatos compatibles para otros programas (FBX, Alembic)",
+        "Organiza los assets de un proyecto completo con convenciones profesionales",
+        "Prepara un archivo final para entrega en estudio con estructura limpia"
+      ]
+    }
+  },
+
+  "Maestro": {
+    "iluminacion": {
+      "keywords": ["diseño lumínico", "mapas de luz", "gestión de exposición", "cinematografía digital", "iluminación narrativa", "color grading", "HDRI personalizado", "multi-luz", "volumetría artística"],
+      "habitos": [
+        "Integra diseño lumínico narrativo para guiar la atención del espectador",
+        "Controla la exposición con precisión para postproducción sin pérdida",
+        "Usa HDRIs personalizados para mantener coherencia con el arte de la escena",
+        "Simula condiciones climáticas complejas con luces y niebla volumétrica",
+        "Evalúa histogramas y scopes para ajustar la luz en producción"
+      ],
+      "tareas": [
+        "Diseña una escena con atmósfera cinematográfica completa usando sólo luces",
+        "Crea un setup de iluminación global con rebotes indirectos realistas",
+        "Usa múltiples capas de luz para simular la hora dorada con sombras suaves",
+        "Genera una iluminación controlada para una animación con mood específico",
+        "Reproduce la luz de un plano cinematográfico real en una escena 3D"
+      ]
+    },
+    "modelado": {
+      "keywords": ["automatización de modelado", "scripts de modelado", "modelado por nodos", "modelado paramétrico", "precisión industrial", "flujos híbridos", "optimización geométrica"],
+      "habitos": [
+        "Desarrolla herramientas personalizadas para acelerar tareas repetitivas",
+        "Utiliza flujos híbridos entre modelado manual y procedural",
+        "Prepara modelos con estructura óptima para simulación o impresión",
+        "Documenta metodologías para replicabilidad en equipos grandes",
+        "Aplica metodologías de modelado técnico adaptadas a manufactura"
+      ],
+      "tareas": [
+        "Diseña un generador de componentes mecánicos por nodos y modificadores",
+        "Crea una librería de modelos con naming y jerarquías automatizadas por Python",
+        "Prepara un modelo arquitectónico exportable a motores de juego",
+        "Desarrolla una herramienta de modelado modular paramétrica",
+        "Realiza un análisis de polígonos y optimización para VR o AR"
+      ]
+    },
+    "texturizado": {
+      "keywords": ["automatización de shading", "sistemas PBR complejos", "texturizado por Python", "gestión de materiales", "shaders personalizados", "bakeado avanzado", "texturizado procedural multicapa"],
+      "habitos": [
+        "Desarrolla sistemas de shading reutilizables para entornos grandes",
+        "Automatiza la asignación de materiales mediante scripts",
+        "Integra nodos personalizados en librerías centralizadas",
+        "Optimiza bakeos en batches para entregas de producción",
+        "Controla variables de texturizado desde atributos o metadatos"
+      ],
+      "tareas": [
+        "Construye un shader maestro que combine mapas y texturas procedurales",
+        "Crea un sistema de shading controlado por atributos del modelo",
+        "Desarrolla un script para asignar materiales automáticamente según nombre",
+        "Aplica texturizado multicapa para un entorno de videojuego completo",
+        "Bakea múltiples objetos a la vez con una única configuración optimizada"
+      ]
+    },
+    "animacion": {
+      "keywords": ["automatización de rigs", "rigging por nodos", "animación procedural", "acciones sincronizadas", "drivers complejos", "layers de animación", "pipeline de animación"],
+      "habitos": [
+        "Construye rigs avanzados con sistemas de control y restricciones complejas",
+        "Integra scripts para duplicar ciclos animados con parámetros modificables",
+        "Gestiona animaciones por capas para facilitar ediciones por parte de equipos",
+        "Diseña animaciones vinculadas a lógica interna del proyecto",
+        "Evalúa el desempeño y optimización de rigs en producción"
+      ],
+      "tareas": [
+        "Diseña un rig facial completo con controladores secundarios y shapes",
+        "Automatiza un ciclo de marcha con parámetros ajustables desde sliders",
+        "Prepara un personaje con animaciones sincronizadas con música",
+        "Crea animaciones dependientes del tiempo o de eventos dinámicos",
+        "Establece una biblioteca de acciones reutilizables en producción"
+      ]
+    },
+    "simulacion": {
+      "keywords": ["sistemas físicos complejos", "control de simulaciones", "script para simulaciones", "flujo híbrido", "simulación multicapa", "entornos dinámicos", "física controlada"],
+      "habitos": [
+        "Controla simulaciones mediante keyframes, campos y scripting",
+        "Crea setups con capas múltiples de efectos físicos interdependientes",
+        "Valida la coherencia entre física simulada y narrativa visual",
+        "Automatiza bakes y limpieza de cachés según parámetros de proyecto",
+        "Configura rigs dinámicos adaptativos para simulación"
+      ],
+      "tareas": [
+        "Simula un entorno dinámico con física, partículas y destrucción sincronizada",
+        "Crea una herramienta de presets de simulación para producción rápida",
+        "Combina cloth y soft body en un solo objeto con resultados creíbles",
+        "Prepara simulaciones de multitudes con comportamiento físico",
+        "Automatiza la generación de caches para varias tomas desde Python"
+      ]
+    },
+    "disenioprocedural": {
+      "keywords": ["geometry nodes avanzado", "sistemas generativos", "herramientas paramétricas", "entornos inteligentes", "procedural toolkit", "automatización visual", "instanciación dinámica"],
+      "habitos": [
+        "Crea sistemas paramétricos completos reutilizables como assets",
+        "Controla generación procedural con inputs externos o expresiones",
+        "Organiza estructuras nodales escalables para escenarios grandes",
+        "Incorpora lógica condicional para nodos adaptativos",
+        "Evalúa nodos experimentales para expandir posibilidades visuales"
+      ],
+      "tareas": [
+        "Desarrolla una herramienta generativa que cree árboles únicos en cada instancia",
+        "Crea un sistema procedural de distribución urbana con control de densidad",
+        "Construye una máquina funcional generada por nodos con interacción física",
+        "Automatiza variaciones visuales de modelos desde un solo nodo maestro",
+        "Conecta Geometry Nodes con controladores externos vía scripting"
+      ]
+    },
+    "postproduccion": {
+      "keywords": ["compositor avanzado", "efectos ópticos personalizados", "macros de nodos", "post automática", "pipeline de render", "luts", "gestión de passes", "multipass"],
+      "habitos": [
+        "Crea macros de nodos para aplicar estilos visuales consistentes",
+        "Optimiza el render por capas para agilizar correcciones posteriores",
+        "Automatiza secuencias de composición para múltiples escenas",
+        "Integra LUTs personalizados desde otros softwares",
+        "Establece un flujo de passes adecuado para producción profesional"
+      ],
+      "tareas": [
+        "Crea un preset de composición con nodos para corrección y efectos",
+        "Diseña una plantilla de postprocesado para animaciones largas",
+        "Automatiza la entrada y salida de múltiples escenas con secuencias",
+        "Integra efectos como DOF, aberración y bloom desde composición",
+        "Genera pases separados y compón una escena con profundidad y control total"
+      ]
+    },
+    "efectosespecialesvfx": {
+      "keywords": ["vfx avanzado", "integración realista", "flujo de producción vfx", "motion capture", "simulación integrada", "pipeline de efectos", "composición con tracking avanzado"],
+      "habitos": [
+        "Establece un flujo integral entre tracking, integración 3D y post",
+        "Usa motion capture para acelerar procesos de animación compleja",
+        "Prepara escenas con coordenadas reales y matchmove preciso",
+        "Crea sets virtuales que respondan a luz y cámara reales",
+        "Gestiona un sistema de tomas con recursos compartidos en efectos"
+      ],
+      "tareas": [
+        "Integra un personaje animado por motion capture en un entorno real",
+        "Crea un plano secuencia con elementos 3D interactuando con el footage",
+        "Simula destrucción controlada alineada a elementos filmados",
+        "Reemplaza entornos reales por escenarios virtuales completos",
+        "Diseña una escena híbrida con actores y elementos simulados"
+      ]
+    },
+    "codigo": {
+      "keywords": ["scripting", "python", "automatización", "API de Blender", "addons", "scripts personalizados", "batch processing", "generación de herramientas"],
+      "habitos": [
+        "Explora la API de Blender para automatizar tareas repetitivas",
+        "Crea interfaces personalizadas dentro de Blender para tus scripts",
+        "Documenta funciones y estructuras para facilitar mantenimiento",
+        "Evalúa errores y outputs desde la consola de Blender",
+        "Desarrolla add-ons que resuelvan problemas específicos de producción"
+      ],
+      "tareas": [
+        "Escribe un script que genere 100 variaciones de un objeto procedural",
+        "Desarrolla un addon que automatice la organización de escenas complejas",
+        "Conecta Blender con archivos CSV o JSON externos para automatizar flujos",
+        "Programa una herramienta que bakee materiales y los empaquete",
+        "Diseña un menú personalizado con botones para acelerar tu flujo de trabajo"
+      ]
+    },
+    "pipelineyproduccion": {
+      "keywords": ["producción avanzada", "gestión de estudio", "control de versiones", "automatización de entregas", "producción colaborativa", "servidores", "sistemas de backup", "documentación técnica"],
+      "habitos": [
+        "Establece un sistema de control de versiones compartido entre artistas",
+        "Prepara documentos técnicos para el uso interno de herramientas",
+        "Automatiza entregas de renders con scripts o herramientas externas",
+        "Integra gestión de archivos en red para flujos colaborativos",
+        "Evalúa constantemente tiempos de producción para optimización"
+      ],
+      "tareas": [
+        "Crea un sistema de versiones con backup automático de escenas",
+        "Documenta los pasos del pipeline completo en un entorno de estudio",
+        "Desarrolla scripts de validación antes de entregar escenas finales",
+        "Organiza un flujo de trabajo compartido con repositorios centralizados",
+        "Prepara un informe técnico de producción para un corto animado completo"
+      ]
+    }
+  }
+}
